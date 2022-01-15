@@ -7,7 +7,13 @@ body{
 }
 
 
+.heading{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
+
+   
+}
 
 nav ul{
     display: flex;
@@ -19,11 +25,12 @@ nav li{
    
 }
 
-nav li:hover{
-    background-color: yellow;
+
+    
+   
     
     
-}
+
 
 nav li a{
     text-decoration: none;
@@ -48,6 +55,11 @@ nav li a{
     margin-top: 50px;
     
 }
+
+.link-button:hover{
+    background-color: orangered;
+}
+
 .link-button2{
     text-decoration: none;
     background-color: rgb(255, 0, 149);
@@ -56,6 +68,11 @@ nav li a{
     font-size: 18px;
     
     
+}
+
+.link-button2:hover{
+    background-color: orangered;
+
 }
 
 .btn a{
@@ -143,3 +160,32 @@ footer{
     padding-bottom: 10px;
     margin-top: 120px;
 }
+
+.transition{
+   
+
+    width: 350px;
+    height: 200px;
+    
+}
+
+.transition:hover{
+
+    width: 500px;
+    height: 350px;
+}
+
+.transition-first{
+   
+
+    width: 700px;
+    height: 500ppx;
+    
+}
+
+.transition-first:hover{
+
+    width: 900px;
+    height: 700px;
+}
+
