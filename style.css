@@ -25,6 +25,14 @@ body{
     
 }
 
+@media only screen and (min-width: 992px) {
+
+    body{
+
+        background-color: springgreen;
+    }
+}
+
 
 .heading{
     display: grid;
@@ -32,6 +40,11 @@ body{
 
 
    
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 nav ul{
@@ -66,7 +79,8 @@ nav li a{
 
 .link-button{
     text-decoration: none;
-    background-color: rgb(255, 0, 149);
+    /* background-color: rgb(255, 0, 149); */
+    background-color: black;
     color:white;
     padding: 10px 20px;
     font-size: 18px;
@@ -81,7 +95,8 @@ nav li a{
 
 .link-button2{
     text-decoration: none;
-    background-color: rgb(255, 0, 149);
+    /* background-color: rgb(255, 0, 149); */
+    background-color: black;
     color:white;
     padding: 10px 20px;
     font-size: 18px;
