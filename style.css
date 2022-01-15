@@ -2,7 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: azure;
+    background-color: turquoise;
 }
 
 
@@ -56,6 +56,7 @@ nav li a{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
 }
 
 
@@ -81,3 +82,13 @@ nav li a{
     display: flex;
 }
 
+
+
+.second{
+    margin-top: 8px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    width: 310px;
+}
