@@ -1,9 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto:wght@300&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color:whitesmoke;
     margin-left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+
+    body{
+        background-color: seashell;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+
+    body{
+        background-color: slategrey;
+    }
+    
 }
 
 
