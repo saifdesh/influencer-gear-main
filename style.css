@@ -53,6 +53,17 @@ nav li a{
     
 } */
 
+
+
+
+.area{
+    width: 1080px;
+    /* border:2px solid red; */
+    /* margin-left: 150px; */
+    margin-left: 150px;
+    
+    
+}
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
